@@ -1,0 +1,24 @@
+{
+  "projet": "Kin-Achat",
+  "vision": {
+    "type": "Institution Hybride",
+    "site_physique": "Gombe",
+    "positionnement": "Facilitateur technologique"
+  },
+  "architecture": {
+    "workflows": {
+      "W1": "Routeur d'Achat",
+      "W2": "Gestionnaire Erreur",
+      "W3": "Réconciliation"
+    },
+    "stack": ["n8n", "Docker", "SQL"]
+  },
+  "securite": {
+    "strategy": "Red Teaming",
+    "protection": ["Tokens secrets", "Variables .env", "Isolation clés API"]
+  },
+  "finance": {
+    "indicateur_cle": "SDR (Solde Disponible Réel)",
+    "ratio_alerte": 1.05
+  }
+}
